@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4 overflow-hidden mb-5 hero-bg" style="height: 350px; display: flex; align-items: center; justify-content: center;">
+        <div class="text-center text-white p-5">
+            <h1 class="display-3 fw-bold">Hasta Takip Sistemi</h1>
+            <p class="lead mt-3">Verilerinizi profesyonelce yönetin, hayatınızı kolaylaştırın.</p>
+            <div class="mt-4">
+                <a class="btn btn-warning btn-lg px-5 shadow" asp-controller="Hasta" asp-action="Index">Hemen Yönetmeye Başla</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center align-items-center g-4">
+
+
+        <div class="col-md-5 order-1 order-md-2">
+            <div class="card shadow-sm border-0 text-center p-4 rounded-4 card-hover-effect" style="background: rgba(255, 255, 255, 0.9); height: 100%;">
+                <i class="bi bi-headset" style="font-size: 2.5rem; color: #0d6efd;"></i>
+                <h5 class="mt-2 text-dark fw-bold">Teknik Destek</h5>
+                <p class="text-muted small">Bir sorunla mı karşılaştın? <br>7/24 yanındayız.</p>
+                <div class="d-flex justify-content-center gap-2 mt-3">
+                    <a href="https://wa.me/905425538301" target="_blank" class="btn btn-success btn-sm px-3 rounded-pill shadow-sm">
+                        <i class="bi bi-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="https://www.instagram.com/sametgodsist" target="_blank" class="btn btn-danger btn-sm px-3 rounded-pill shadow-sm">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a>
+                </div>
+               </div>
+             </div>
+            </div>
+        </div>
+    </div>
+</div>

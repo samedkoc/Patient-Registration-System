@@ -1,0 +1,77 @@
+/* --- Temel Ayarlar --- */
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #f4f7f6; 
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hastalar-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1586773860418-d37222d8dfde?q=80&w=2000');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 1rem !important;
+    border: none !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 1rem 3rem rgba(0,0,0,0.15) !important;
+    }
+
+.card-hover-effect:hover {
+    transform: scale(1.03) !important;
+}
+
+.btn {
+    border-radius: 50px !important;
+    padding: 0.6rem 1.5rem !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+    .btn:focus {
+        box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    }
+
+.hero-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2000');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    border-radius: 1rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ffffff;
+    border-top: 1px solid #e7e7e7;
+    z-index: 10;
+}
+.hastalar-bg h2 {
+    color: white !important; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); 
+}
